@@ -43,9 +43,15 @@ h3{
 } 
  
 .photo{ 
-    width: 300px;    
+    width: 250px;    
     border-radius: 100%;  
 } 
+.photo2{
+    width:500px
+}
+.photo3{
+    width:450px
+}
 .prizrak{ 
     z-index: 5; 
     top: 500px; 
@@ -95,6 +101,13 @@ nav{
     height: 100vh; 
     align-items: start; 
 } 
+#skills{ 
+    background-color: #EEEEEE; 
+    color: #222831; 
+    min-height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+} 
 #projects{ 
     background-color: #EEEEEE; 
     color: #222831; 
@@ -102,3 +115,17 @@ nav{
     display: flex; 
     justify-content: center; 
 } 
+#blog{
+    background-color: #222831; 
+    color: #EEEEEE; 
+    min-height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+}
+#contact{
+    background-color: #222831; 
+    color: #EEEEEE; 
+    min-height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+}
