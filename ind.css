@@ -33,14 +33,20 @@ h2{
     font-weight: 400; 
 } 
 .textMid{ 
-    font-size: 2rem; 
+    font-size: 1.3rem; 
     text-align: left; 
 } 
-h3{ 
-    font-size: 2rem; 
+h4{ 
+    font-size: 1.5rem; 
     margin: 0; 
     font-weight: 400; 
+    color:#EEEEEE
 } 
+h3{
+     font-size: 2rem; 
+    margin: 0; 
+    font-weight: 400; 
+}
  
 .photo{ 
     width: 250px;    
@@ -105,7 +111,6 @@ nav{
     background-color: #EEEEEE; 
     color: #222831; 
     min-height: 100vh; 
-    display: flex; 
     justify-content: center; 
 } 
 #projects{ 
@@ -128,4 +133,20 @@ nav{
     min-height: 100vh; 
     display: flex; 
     justify-content: center; 
+}
+.skill_{
+    font-size: 30px;
+}
+.skill_level{
+    font-size: 16px;
+}
+.upbox{
+    display: flex;
+    justify-content: space-around;
+}
+.myskills{
+    text-align: center;
+}
+.upbox1{
+    text-align: center;
 }
